@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Roboto:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero1{
+    background-image: url(/webpageYT/project2/pexels-designecologist-1779487.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text1{
+    color: rgb(104, 237, 237);
+    max-width: 700px;
+    padding-top: 40vh;
+    padding-left: 9vw;
+}
+
+.lgtext{
+    font-size: 52px;
+}
+
+.blackbox{
+    background-color: black;
+    color: azure;
+    padding: 20px;
+    text-align: center;
+}
+
+.blackbox h2{
+    font-size: 42px;
+}
+
+.blackbox h2 span{
+    font-weight: 300;
+    font-size: 96px;
+
+}
+
+.services{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 6vh;
+}
+
+.card img{
+    height: 25vh;
+}
+
+.card:hover{
+    box-shadow: 10px 10px 15px gray;
+    margin-top: -2rem;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.bottom{
+    display: flex;
+}
+
+.contact{
+    background-color: fuchsia;
+    min-width: 40vw;
+}
+
+.about{
+    background-color: darkorange;
+    min-width: 40vw;
+}
+
+.contact,
+.about{
+    margin: 10vh;
+    min-height: 300px;
+    padding: 32px;
+    color: azure;
+}
+
+.contact h2,
+.about h2{
+    font-size: 64px;
+}
+
+.contact p,
+.about p{
+    margin-bottom: 20px;
+}
+
+.but1{
+    color:#ebeef1;
+    background-color:fuchsia;
+    font-size: 24px;
+    transition: 0.2s;
+    border: none;
+
+}
+
+.but2{
+    color:#ebeef1;
+    background-color: darkorange;
+    font-size: 24px;
+    transition: 0.2s;
+    border: none;
+
+}
+
+.but1:hover{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+}
+
+.but2:hover{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+}
